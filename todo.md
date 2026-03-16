@@ -1,2 +1,5 @@
+- error mapping
 - pre push?
 - lint, test, deploy?
+- env for base url
+- do the outlet thign for protected route
