@@ -21,7 +21,6 @@ class AuthApi {
                 data: res.data,
             };
         } catch (err: any) {
-            console.log(err);
             return {
                 type: "failure",
                 errorCode: err.response?.data?.errorCode,

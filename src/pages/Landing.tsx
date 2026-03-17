@@ -8,7 +8,6 @@ const Landing = () => {
         const token = localStorage.getItem("token");
         const role = localStorage.getItem("role");
 
-        console.log(role, " role");
         if (!token) {
             navigate("/login");
             return;

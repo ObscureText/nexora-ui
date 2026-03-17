@@ -14,7 +14,6 @@ const getErrorMessage = (code: string) => {
 };
 
 const mapApiResult = (result: ApiResult<any>): ServiceResult<any> => {
-    console.log(result);
     switch (result.type) {
         case "success":
             return {
