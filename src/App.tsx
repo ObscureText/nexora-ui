@@ -11,7 +11,7 @@ import NotFound from "./pages/NotFound";
 
 function App() {
     return (
-        <BrowserRouter basename="/nexora-ui">
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Landing />} />
 

@@ -2,10 +2,7 @@ import { authApi } from "../api/authApi";
 import type { ServiceResult } from "./serviceResult";
 
 const errorMessages: Record<string, string> = {
-    INVALID_CREDENTIALS: "Invalid email or password",
-    USER_NOT_FOUND: "User account does not exist",
-    ACCOUNT_LOCKED: "Your account is locked. Please contact support",
-    TOKEN_EXPIRED: "Session expired. Please login again",
+    NEXORA_ERROR_INVALID_CREDENTIALS: "Incorrect email or password",
 };
 
 const getErrorMessage = (code: string) => {

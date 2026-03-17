@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://nexora-api-dev.up.railway.app";
+const BASE_URL = "https://nexora-api-jpif.onrender.com";
 // const BASE_URL = "http://localhost:8080";
 
 const baseClient = axios.create({
